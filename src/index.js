@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault();
     taskUl.append(newTaskDescription.value);
     console.log(e.value)
-    // $("#tasks")
     e.target.reset();
   });
 
